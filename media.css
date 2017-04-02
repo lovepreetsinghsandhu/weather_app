@@ -1,0 +1,8 @@
+@media screen and (max-width: 650px) {
+	.wa_wthr,.wa_box,.wa_float_1,.wa_float_2,.wa_float_left,.wa_wthr_2
+	{
+		float: none;
+		width: 100%;
+		padding: 10px 0px;
+	}
+}

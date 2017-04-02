@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+:root {
+  --bgcolor:#9cadba;
+  --drkGr: #3e5160;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  color: var(--drkGr);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+  background-color: var(--bgcolor);
+}
+
+.displayWeather {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  width: 80vw;
+  min-height: 60vh;
+}
+
+input {
+  padding: 6px;
+  border-radius: 5px;
+  color: var(--drkGr);
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  background: var(--drkGr);
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.wa_Weather
+{
+  text-align: center;
+  font-size: 25px;
+}
+
+.wa_wthr
+{
+  float: left;
+  width: 50%;
+  padding: 40px 0px;
+}
+.wa_wthr_2
+{
+  float: left;
+  width: 50%;
+  padding: 90px 0px;
+}
+.wa_clear
+{
+  clear: both;
+}
+.wa_wthr_1
+{
+  float: left;
+  width: 100%;
+  padding: 20px 0px;
+}
+.wa_float_left
+{
+  float: left;
+  width: 50%;
+  padding-top: 20px;
+}
+.wa_float_1
+{
+  float: left;
+  width: 30%;
+  padding-top: 20px;
+}
+.wa_float_2
+{
+  float: left;
+  width: 70%;
+  padding: 20px 0px;
+  margin-top: 7px;
+}
+.wa_box
+{
+  float: left;
+  width: 20%;
+  text-align: center;
+}
